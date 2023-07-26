@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="description"
+      content=""
+    />
+    <meta
+      name="viewport"
+      content="width=device-width"
+    />
+    <title>Request for FD</title>
+    <link
+      rel="stylesheet"
+      href="https://getbootstrap.com/2.3.2/assets/css/bootstrap.css"
+    />
+
+    <style>
+      .table th {
+        width: 50%;
+        text-align: center;
+        border: solid 1px #ddd;
+        padding: 8px;
+      }
+
+      .table td {
+        padding: 8px;
+        border: solid 1px #ddd;
+      }
+
+      .table .odd {
+        background-color: #f9f9f9;
+      }
+      .table .even {
+        background-color: #fff;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <!--  main content -->
+      <div
+        id="content"
+        style="margin: 0 auto; max-width: 750px"
+      >
+        <table
+          class="table"
+          style="border: none !important"
+        >
+          <tbody>
+            <tr>
+              <td
+                colspan="2"
+                style="
+                  border: none !important;
+                  text-align: right;
+                  padding-left: 0;
+                  padding-right: 0;
+                "
+              >
+                <strong>Date and Time</strong>: #TODAYDATETIME#
+              </td>
+            </tr>
+            <tr>
+              <td
+                colspan="2"
+                style="border: none !important"
+              >
+                <strong>Dear #CUSTOMER_NAME#,</strong>
+              </td>
+            </tr>
+            <tr>
+              <td
+                colspan="2"
+                style="border: none !important"
+              >
+                Greetings from City Bank !
+              </td>
+            </tr>
+            <tr>
+              <td
+                colspan="2"
+                style="border: none !important"
+              >
+                Thank you for choosing Citytouch Digital Banking. Your FD
+                account opening request has been processed successfully. Please
+                find request details below :
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <table
+          class="table"
+          style="border: solid 1px #ddd"
+        >
+          <thead>
+            <tr>
+              <th scope="col">Particular</th>
+              <th scope="col">Details</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="odd">
+              <td><strong>Request Ref Number</strong></td>
+              <td>CT#REQUEST_CD#</td>
+            </tr>
+            <tr class="even">
+              <td><strong>Request type</strong></td>
+              <td>FD Account Opening Request</td>
+            </tr>
+            <tr class="odd">
+              <td><strong>Request Date & Time</strong></td>
+              <td>#TRAN_DT#</td>
+            </tr>
+            <tr class="even">
+              <td><strong>FD Account Number</strong></td>
+              <td>#GENERATED_ACCT_NO#</td>
+            </tr>
+            <tr class="odd">
+              <td><strong>Source Account</strong></td>
+              <td>#SOURCE_ACCT_NO#</td>
+            </tr>
+            <tr class="even">
+              <td><strong>Tenure</strong></td>
+              <td>#TENURE#</td>
+            </tr>
+            <tr class="odd">
+              <td><strong>FDR Amount</strong></td>
+              <td>#CURR_CD# #TRAN_AMOUNT#</td>
+            </tr>
+            <tr class="even">
+              <td><strong>Auto Renewal</strong></td>
+              <td>#AUTO_RENEWAL#</td>
+            </tr>
+            <tr class="odd">
+              <td><strong>Interst Rate</strong></td>
+              <td>#INT_RATE#</td>
+            </tr>
+            <tr>
+              <div>
+                <table
+                  border="0"
+                  style="margin-top: 19px; display: inline-block"
+                >
+                  <tbody>
+                    <tr>
+                      <td>
+                        <img
+                          src="https://ci5.googleusercontent.com/proxy/AI8clNhH-2QsSGmrbQWQZZkNFDSzS6-ffCLTFlBvNxe5EPAh6Us9hSG5H6u-tgxkJQ=s0-d-e1-ft#http://i.imgur.com/MD0cLTD.png"
+                          alt="phone"
+                          height="16px"
+                          width="16px"
+                          class="CToWUd"
+                        />
+                      </td>
+                      <td>
+                        <strong> 16234 (local)</strong> or
+                        <strong>+880 2 8331040 (overseas)</strong>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img
+                          src="https://ci4.googleusercontent.com/proxy/CLD29Vgl9H0GLJsX9RHWP2Zr8JRm_gPQOhqwn7nypaEdd9h3_sF02g=s0-d-e1-ft#https://goo.gl/fSIJda"
+                          alt="email"
+                          height="16px"
+                          width="16px"
+                          class="CToWUd"
+                        />
+                      </td>
+                      <td>
+                        <a
+                          href="mailto:citytouch@thecitybank.com"
+                          target="_blank"
+                          >citytouch@thecitybank.com</a
+                        >
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>
