@@ -29,386 +29,418 @@
         border: 0;
       }
 
-      .wrapper {
-        width: 100%;
-        table-layout: fixed;
-        background-color: #ffffff;
-        padding-bottom: 60px;
-      }
-
-      .main {
-        width: 100%;
-        max-width: 600px;
-        background-color: #ffffff;
-        font-family: "Helvetica Neue", sans-serif;
-        word-wrap: break-word;
-        word-break: break-word;
-        color: #101010;
+      #outlook {
+        width: 600px;
       }
     </style>
   </head>
   <body>
-    <center
-      style="
-        width: 100%;
-        table-layout: fixed;
-        background-color: #ffffff;
-        padding-bottom: 60px;
-      "
+    <table
+      style="width: 100%; background-color: #ffffff; padding-bottom: 60px"
+      align="center"
+      width="100%"
     >
-      <table
-        style="
-          width: 100%;
-          max-width: 600px;
-          background-color: #ffffff;
-          word-wrap: break-word;
-          word-break: break-word;
-          color: #101010;
-        "
-        width="100%"
-      >
-        <tr>
-          <td>
-            <table
-              width="100%"
-              style="border: 16px solid #d13a3a"
-            >
-              <tr>
-                <td style="padding: 32px 16px">
-                  <table>
-                    <tr>
-                      <td
-                        style="
-                          border-bottom: 1px solid #e9e9e9;
-                          padding-bottom: 16px;
-                        "
+      <tr>
+        <td>&nbsp;</td>
+        <td
+          align="center"
+          width="600"
+          style="width: 600px"
+        >
+          <table
+            align="center"
+            border="0"
+            width="100%"
+            style="width: 100%"
+          >
+            <tr>
+              <td align="center">
+                <table
+                  style="
+                    width: 100%;
+                    max-width: 600px;
+                    background-color: #ffffff;
+                    word-wrap: break-word;
+                    word-break: break-word;
+                    color: #101010;
+                  "
+                  width="600"
+                  id="outlook"
+                >
+                  <tr>
+                    <td>
+                      <table
+                        width="100%"
+                        style="border: 16px solid #d13a3a"
                       >
-                        <img
-                          src="https://www.thecitybank.com/dist/img/logo/citylogo.png"
-                          alt="City Bank Logo"
-                          height="64"
-                          width="100"
-                        />
-                      </td>
-                    </tr>
-                    <tr>
-                      <td style="padding-top: 16px">
-                        <table>
-                          <tr>
-                            <td
-                              style="
-                                padding: 4px 16px;
-                                background-color: #ededed;
-                                border-radius: 16px;
-                                font-size: 18px;
-                                font-weight: 700;
-                                color: #ed1c24;
-                                font-family: 'Helvetica Neue', sans-serif;
-                                max-width: 50%;
-                                margin-bottom: 0;
-                              "
-                            >
-                              Transaction Alert
-                            </td>
-                          </tr>
-                        </table>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td style="padding-bottom: 8px">
-                        <p
-                          style="
-                            font-size: 32px;
-                            font-weight: 700;
-                            font-family: 'Helvetica Neue', sans-serif;
-                          "
-                        >
-                          You made a BDT 10,000.00 Club Fee Payment
-                        </p>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <table
-                          width="100%"
-                          style="
-                            margin-top: 16px;
-                            font-family: 'Helvetica Neue', sans-serif;
-                          "
-                        >
-                          <tr>
-                            <td
-                              style="
-                                color: #5a5a5a;
-                                font-weight: bold;
-                                padding: 12px 0;
-                                border-bottom: 1px solid #e9e9e9;
-                                font-size: 14px;
-                                width: 50%;
-                              "
-                            >
-                              Club Name
-                            </td>
-                            <td
-                              style="
-                                font-weight: bold;
-                                padding: 12px 0;
-                                border-bottom: 1px solid #e9e9e9;
-                                font-size: 14px;
-                                width: 50%;
-                                text-align: right;
-                              "
-                            >
-                              #CLUB_NAME#
-                            </td>
-                          </tr>
-                          <tr>
-                            <td
-                              style="
-                                color: #5a5a5a;
-                                font-weight: bold;
-                                padding: 12px 0;
-                                border-bottom: 1px solid #e9e9e9;
-                                font-size: 14px;
-                                width: 50%;
-                              "
-                            >
-                              Member ID
-                            </td>
-                            <td
-                              style="
-                                font-weight: bold;
-                                padding: 12px 0;
-                                border-bottom: 1px solid #e9e9e9;
-                                font-size: 14px;
-                                width: 50%;
-                                text-align: right;
-                              "
-                            >
-                              #MEMBER_ID#
-                            </td>
-                          </tr>
-                          <tr>
-                            <td
-                              style="
-                                color: #5a5a5a;
-                                font-weight: bold;
-                                padding: 12px 0;
-                                border-bottom: 1px solid #e9e9e9;
-                                font-size: 14px;
-                                width: 50%;
-                              "
-                            >
-                              Bill Amount
-                            </td>
-                            <td
-                              style="
-                                font-weight: bold;
-                                padding: 12px 0;
-                                border-bottom: 1px solid #e9e9e9;
-                                font-size: 14px;
-                                width: 50%;
-                                text-align: right;
-                              "
-                            >
-                              #CURR_CD# #TRAN_AMOUNT#
-                            </td>
-                          </tr>
-                          <tr>
-                            <td
-                              style="
-                                color: #5a5a5a;
-                                font-weight: bold;
-                                padding: 12px 0;
-                                border-bottom: 1px solid #e9e9e9;
-                                font-size: 14px;
-                                width: 50%;
-                              "
-                            >
-                              Service Charge
-                            </td>
-                            <td
-                              style="
-                                font-weight: bold;
-                                padding: 12px 0;
-                                border-bottom: 1px solid #e9e9e9;
-                                font-size: 14px;
-                                width: 50%;
-                                text-align: right;
-                              "
-                            >
-                              #CURR_CD# #SERVICE_CHARGE#
-                            </td>
-                          </tr>
-                          <tr>
-                            <td
-                              style="
-                                color: #5a5a5a;
-                                font-weight: bold;
-                                padding: 12px 0;
-                                border-bottom: 1px solid #e9e9e9;
-                                font-size: 14px;
-                                width: 50%;
-                              "
-                            >
-                              VAT
-                            </td>
-                            <td
-                              style="
-                                font-weight: bold;
-                                padding: 12px 0;
-                                border-bottom: 1px solid #e9e9e9;
-                                font-size: 14px;
-                                width: 50%;
-                                text-align: right;
-                              "
-                            >
-                              #CURR_CD# #VAT#
-                            </td>
-                          </tr>
-                          <tr>
-                            <td
-                              style="
-                                color: #5a5a5a;
-                                font-weight: bold;
-                                padding: 12px 0;
-                                border-bottom: 1px solid #e9e9e9;
-                                font-size: 14px;
-                                width: 50%;
-                              "
-                            >
-                              Total Amount
-                            </td>
-                            <td
-                              style="
-                                font-weight: bold;
-                                padding: 12px 0;
-                                border-bottom: 1px solid #e9e9e9;
-                                font-size: 14px;
-                                width: 50%;
-                                text-align: right;
-                              "
-                            >
-                              #CURR_CD# #TOTAL_AMOUNT#
-                            </td>
-                          </tr>
-                          <tr>
-                            <td
-                              style="
-                                color: #5a5a5a;
-                                font-weight: bold;
-                                padding: 12px 0;
-                                border-bottom: 1px solid #e9e9e9;
-                                font-size: 14px;
-                                width: 50%;
-                              "
-                            >
-                              From Account Number
-                            </td>
-                            <td
-                              style="
-                                font-weight: bold;
-                                padding: 12px 0;
-                                border-bottom: 1px solid #e9e9e9;
-                                font-size: 14px;
-                                width: 50%;
-                                text-align: right;
-                              "
-                            >
-                              #FROM_ACCT_NO#
-                            </td>
-                          </tr>
-                          <tr>
-                            <td
-                              style="
-                                color: #5a5a5a;
-                                font-weight: bold;
-                                padding: 12px 0;
-                                border-bottom: 1px solid #e9e9e9;
-                                font-size: 14px;
-                                width: 50%;
-                              "
-                            >
-                              Date & Time
-                            </td>
-                            <td
-                              style="
-                                font-weight: bold;
-                                padding: 12px 0;
-                                border-bottom: 1px solid #e9e9e9;
-                                font-size: 14px;
-                                width: 50%;
-                                text-align: right;
-                              "
-                            >
-                              #TRAN_DT#
-                            </td>
-                          </tr>
-                          <tr>
-                            <td
-                              style="
-                                color: #5a5a5a;
-                                font-weight: bold;
-                                padding: 12px 0;
-                                font-size: 14px;
-                                width: 50%;
-                              "
-                            >
-                              Ref Number
-                            </td>
-                            <td
-                              style="
-                                font-weight: bold;
-                                padding: 12px 0;
-                                font-size: 14px;
-                                width: 50%;
-                                text-align: right;
-                              "
-                            >
-                              CT#REQUEST_CD#
-                            </td>
-                          </tr>
-                        </table>
-                      </td>
-                    </tr>
-                  </table>
-                </td>
-              </tr>
-            </table>
-          </td>
-        </tr>
+                        <tr>
+                          <td style="padding: 32px 16px">
+                            <table>
+                              <tr>
+                                <td
+                                  style="
+                                    border-bottom: 1px solid #e9e9e9;
+                                    padding-bottom: 16px;
+                                    text-align: left;
+                                  "
+                                >
+                                  <img
+                                    src="https://www.thecitybank.com/dist/img/logo/citylogo.png"
+                                    alt="City Bank Logo"
+                                    height="64"
+                                    width="100"
+                                  />
+                                </td>
+                              </tr>
+                              <tr>
+                                <td style="padding-top: 16px">
+                                  <table>
+                                    <tr>
+                                      <td
+                                        style="
+                                          padding: 4px 16px;
+                                          background-color: #ededed;
+                                          border-radius: 16px;
+                                          font-size: 18px;
+                                          font-weight: 700;
+                                          color: #ed1c24;
+                                          font-family: 'Arial', sans-serif;
+                                          max-width: 50%;
+                                          margin-bottom: 0;
+                                        "
+                                      >
+                                        Transaction Alert
+                                      </td>
+                                    </tr>
+                                  </table>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td style="padding-bottom: 8px">
+                                  <p
+                                    style="
+                                      font-size: 32px;
+                                      font-weight: 700;
+                                      font-family: 'Arial', sans-serif;
+                                      text-align: left;
+                                    "
+                                  >
+                                    You made a BDT 10,000.00 Club Fee Payment
+                                  </p>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <table
+                                    width="100%"
+                                    style="
+                                      margin-top: 16px;
+                                      font-family: 'Arial', sans-serif;
+                                    "
+                                  >
+                                    <tr>
+                                      <td
+                                        style="
+                                          color: #5a5a5a;
+                                          font-weight: bold;
+                                          padding: 12px 0;
+                                          border-bottom: 1px solid #e9e9e9;
+                                          font-size: 14px;
+                                          width: 50%;
+                                          text-align: left;
+                                        "
+                                      >
+                                        Club Name
+                                      </td>
+                                      <td
+                                        style="
+                                          font-weight: bold;
+                                          padding: 12px 0;
+                                          border-bottom: 1px solid #e9e9e9;
+                                          font-size: 14px;
+                                          width: 50%;
+                                          text-align: right;
+                                        "
+                                      >
+                                        #CLUB_NAME#
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td
+                                        style="
+                                          color: #5a5a5a;
+                                          font-weight: bold;
+                                          padding: 12px 0;
+                                          border-bottom: 1px solid #e9e9e9;
+                                          font-size: 14px;
+                                          width: 50%;
+                                          text-align: left;
+                                        "
+                                      >
+                                        Member ID
+                                      </td>
+                                      <td
+                                        style="
+                                          font-weight: bold;
+                                          padding: 12px 0;
+                                          border-bottom: 1px solid #e9e9e9;
+                                          font-size: 14px;
+                                          width: 50%;
+                                          text-align: right;
+                                        "
+                                      >
+                                        #MEMBER_ID#
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td
+                                        style="
+                                          color: #5a5a5a;
+                                          font-weight: bold;
+                                          padding: 12px 0;
+                                          border-bottom: 1px solid #e9e9e9;
+                                          font-size: 14px;
+                                          width: 50%;
+                                          text-align: left;
+                                        "
+                                      >
+                                        Bill Amount
+                                      </td>
+                                      <td
+                                        style="
+                                          font-weight: bold;
+                                          padding: 12px 0;
+                                          border-bottom: 1px solid #e9e9e9;
+                                          font-size: 14px;
+                                          width: 50%;
+                                          text-align: right;
+                                        "
+                                      >
+                                        #CURR_CD# #TRAN_AMOUNT#
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td
+                                        style="
+                                          color: #5a5a5a;
+                                          font-weight: bold;
+                                          padding: 12px 0;
+                                          border-bottom: 1px solid #e9e9e9;
+                                          font-size: 14px;
+                                          width: 50%;
+                                          text-align: left;
+                                        "
+                                      >
+                                        Service Charge
+                                      </td>
+                                      <td
+                                        style="
+                                          font-weight: bold;
+                                          padding: 12px 0;
+                                          border-bottom: 1px solid #e9e9e9;
+                                          font-size: 14px;
+                                          width: 50%;
+                                          text-align: right;
+                                        "
+                                      >
+                                        #CURR_CD# #SERVICE_CHARGE#
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td
+                                        style="
+                                          color: #5a5a5a;
+                                          font-weight: bold;
+                                          padding: 12px 0;
+                                          border-bottom: 1px solid #e9e9e9;
+                                          font-size: 14px;
+                                          width: 50%;
+                                          text-align: left;
+                                        "
+                                      >
+                                        VAT
+                                      </td>
+                                      <td
+                                        style="
+                                          font-weight: bold;
+                                          padding: 12px 0;
+                                          border-bottom: 1px solid #e9e9e9;
+                                          font-size: 14px;
+                                          width: 50%;
+                                          text-align: right;
+                                        "
+                                      >
+                                        #CURR_CD# #VAT#
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td
+                                        style="
+                                          color: #5a5a5a;
+                                          font-weight: bold;
+                                          padding: 12px 0;
+                                          border-bottom: 1px solid #e9e9e9;
+                                          font-size: 14px;
+                                          width: 50%;
+                                          text-align: left;
+                                        "
+                                      >
+                                        Total Amount
+                                      </td>
+                                      <td
+                                        style="
+                                          font-weight: bold;
+                                          padding: 12px 0;
+                                          border-bottom: 1px solid #e9e9e9;
+                                          font-size: 14px;
+                                          width: 50%;
+                                          text-align: right;
+                                        "
+                                      >
+                                        #CURR_CD# #TOTAL_AMOUNT#
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td
+                                        style="
+                                          color: #5a5a5a;
+                                          font-weight: bold;
+                                          padding: 12px 0;
+                                          border-bottom: 1px solid #e9e9e9;
+                                          font-size: 14px;
+                                          width: 50%;
+                                          text-align: left;
+                                        "
+                                      >
+                                        From Account Number
+                                      </td>
+                                      <td
+                                        style="
+                                          font-weight: bold;
+                                          padding: 12px 0;
+                                          border-bottom: 1px solid #e9e9e9;
+                                          font-size: 14px;
+                                          width: 50%;
+                                          text-align: right;
+                                        "
+                                      >
+                                        #FROM_ACCT_NO#
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td
+                                        style="
+                                          color: #5a5a5a;
+                                          font-weight: bold;
+                                          padding: 12px 0;
+                                          border-bottom: 1px solid #e9e9e9;
+                                          font-size: 14px;
+                                          width: 50%;
+                                          text-align: left;
+                                        "
+                                      >
+                                        Date & Time
+                                      </td>
+                                      <td
+                                        style="
+                                          font-weight: bold;
+                                          padding: 12px 0;
+                                          border-bottom: 1px solid #e9e9e9;
+                                          font-size: 14px;
+                                          width: 50%;
+                                          text-align: right;
+                                        "
+                                      >
+                                        #TRAN_DT#
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td
+                                        style="
+                                          color: #5a5a5a;
+                                          font-weight: bold;
+                                          padding: 12px 0;
+                                          font-size: 14px;
+                                          width: 50%;
+                                          text-align: left;
+                                        "
+                                      >
+                                        Ref Number
+                                      </td>
+                                      <td
+                                        style="
+                                          font-weight: bold;
+                                          padding: 12px 0;
+                                          font-size: 14px;
+                                          width: 50%;
+                                          text-align: right;
+                                        "
+                                      >
+                                        CT#REQUEST_CD#
+                                      </td>
+                                    </tr>
+                                  </table>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
 
-        <tr>
-          <td style="padding-top: 32px; padding-bottom: 16px">
-            For further assistance, please contact our 24/7 Call Centre at
-            <strong>16234</strong> (local) or
-            <strong>+88 02 8331040</strong> (overseas).
-          </td>
-        </tr>
-        <tr>
-          <td style="padding-bottom: 32px">
-            You can also email us at:
-            <a href="mailto:citytouch@thecitybank.com"
-              >citytouch@thecitybank.com</a
-            >
-          </td>
-        </tr>
-        <tr>
-          <td>Regards</td>
-        </tr>
-        <tr>
-          <td>The City Bank Limited</td>
-        </tr>
-        <tr>
-          <td style="color: #5a5a5a; font-style: italic; padding-top: 32px">
-            This is a system generated information and does not require any
-            signature. Please do not reply to this message. This e-mail is
-            confidential and may also be privileged. If you are not the intended
-            recipient, please notify us immediately and do not disclose its
-            contents to any other person, nor copy or use it for any purpose.
-          </td>
-        </tr>
-      </table>
-    </center>
+                  <tr>
+                    <td
+                      style="
+                        padding-top: 32px;
+                        padding-bottom: 16px;
+                        text-align: left;
+                      "
+                    >
+                      For further assistance, please contact our 24/7 Call
+                      Centre at
+                      <strong>16234</strong> (local) or
+                      <strong>+88 02 8331040</strong> (overseas).
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="padding-bottom: 32px; text-align: left">
+                      You can also email us at:
+                      <a href="mailto:citytouch@thecitybank.com"
+                        >citytouch@thecitybank.com</a
+                      >
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="text-align: left">Regards</td>
+                  </tr>
+                  <tr>
+                    <td style="text-align: left">The City Bank Limited</td>
+                  </tr>
+                  <tr>
+                    <td
+                      style="
+                        color: #5a5a5a;
+                        font-style: italic;
+                        padding-top: 32px;
+                        text-align: left;
+                      "
+                    >
+                      This is a system generated information and does not
+                      require any signature. Please do not reply to this
+                      message. This e-mail is confidential and may also be
+                      privileged. If you are not the intended recipient, please
+                      notify us immediately and do not disclose its contents to
+                      any other person, nor copy or use it for any purpose.
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+        <td>&nbsp;</td>
+      </tr>
+    </table>
   </body>
 </html>
